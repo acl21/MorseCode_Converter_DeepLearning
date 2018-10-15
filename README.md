@@ -1,7 +1,6 @@
-# Morse Code Convertor
- 
-This 4-in-1 application can convert Morse Code signalled in 4 different ways in real time. Namely, flashlight toggles, eye winking, hand gestures and mouse clicks. 
+# Morse Code Convertor [![License: Apache 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/akshaychandra21/MorseCode_Converter_DeepLearning/blob/master/LICENSE)
 
+This 4-in-1 application can convert Morse Code signalled in 4 different ways in real time. Namely, flashlight toggles, eye winking, hand gestures and mouse clicks. 
 
 ## Code Requirements
 * Numpy - 1.13.3
@@ -42,25 +41,16 @@ Morse code has been employed as an assistive technology, helping people with a v
 
 Morse code can also be translated by computer and used in a speaking communication aid. In some cases, this means alternately blowing into and sucking on a plastic tube ("sip-and-puff" interface). An important advantage of Morse code over row column scanning is that once learned, it does not require looking at a display. Also, it appears faster than scanning.
 
-### Representation, timing, and speeds
-International Morse code is composed of five elements:
+_Note: The entire text and most of the images are from the [Morse Code Wikipedia page](https://en.wikipedia.org/wiki/Morse_code) [[2](#references)]._
 
-1. short mark, dot or "dit" (.): "dot duration" is one time unit long
-2. longer mark, dash or "dah" (... or -)three time units long
-3. inter-element gap between the dots and dashes within a character: one dot duration or one unit long
-4. short gap (between letters): three time units long
-5. medium gap (between words): seven time units long
-
-_Note: The entire text and the most of the images are from the [Morse Code Wikipedia page](https://en.wikipedia.org/wiki/Morse_code) [[2](#references)]._
-
-## Hand Guestures
+## Hand Gestures
 *Under development*
 
 ## Eye Winking
 
 This module is deeply centered around predicting the facial landmarks of the given face in a video. We can accomplish a lot of things using these landmarks. From detecting eye-blinks [[3](#references)] in a video to predicting emotions of the subject. The applications, outcomes and possibilities of facial landmarks are immense and intriguing.
 
-[Dlib](dlib.net/)'s prebuilt model, which is essentially an implementation of [[4](#references)], not only does a fast face-detection but also allows us to accurately predict 68 2D facial landmarks. Very handy. Also Adrian Rosebrock's imutils package was super helpful [[5](#references)].
+[Dlib](dlib.net/)'s prebuilt model, which is essentially an implementation of [[4](#references)], not only does a fast face-detection but also allows us to accurately predict 68 2D facial landmarks. Very handy. Also Adrian Rosebrock's imutils package was super helpful [[5](#references)], checkout his tutorials at [[3](#references)].
 
 <br>
 <div align="center">
@@ -79,18 +69,19 @@ You can see that the EAR value drops whenever the eye closes. We can train a sim
 
 ## Flashlight Toggling
 *Under development*
-## Mouse-Clicks Tracking
+## Mouse Clicks Tracking
 
 This module could be the least useful of all. But my motivation was to create an interface where one need not type anything explicitly but still would want to convey the message with just the mouse clicks. One way to look at this is to send the message across discreetly with just the mouse clicks. 
 
 I understand the practical usage of this module is limited but then I thought, "Why not?". I created the GUI using PyQt5 that allows the user to click in a specified input space and it converts the clicks into morse code and then the morse code to text. 
 
+<br>
 <div align="center">
-<img src="demos/mouse-clicks-demo.gif" width=740 height=420/>
+<img src="demos/mouse-clicks-demo.gif" width=740 height=440/>
 <p> <i> Note: Red circles imply right click. </i> </p>
 </div>
 
-Maybe this would be helpful if you are trying to get rid of an annoying co-worker and want to send the message to someone to free you from the misery (I will add the mailing feature soon). I will leave it to your imaginations. 
+Maybe this would be helpful when you are trying to get rid of an annoying co-worker and want to send the message to someone to free you from the misery (I will add the mailing feature soon). I will leave it to your imaginations. 
 
 ## References
 - **[1]**. Tereza Soukupova´ and Jan Cˇ ech. _[Real-Time Eye Blink Detection using Facial Landmarks](https://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf)_. In 21st Computer Vision Winter Workshop, February 2016.
@@ -104,3 +95,7 @@ Maybe this would be helpful if you are trying to get rid of an annoying co-worke
 - **[5]**. Adrian Rosebrock. *Imutils*. [https://github.com/jrosebr1/imutils](https://github.com/jrosebr1/imutils). 
 
 - **[6]**. PyQt5 Tutorials. *zetcode.com*. [http://zetcode.com/gui/pyqt5/](http://zetcode.com/gui/pyqt5/).
+
+- **[7]**. Akshay Bahadur. *Emojinator*. [https://github.com/akshaybahadur21/Emojinator](https://github.com/akshaybahadur21/Emojinator).
+
+-  
