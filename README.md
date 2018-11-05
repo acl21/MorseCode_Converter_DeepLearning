@@ -44,7 +44,9 @@ Morse code can also be translated by computer and used in a speaking communicati
 _Note: The entire text and most of the images are from the [Morse Code Wikipedia page](https://en.wikipedia.org/wiki/Morse_code) [[2](#references)]._
 
 ## Hand Gestures
-*Under development*
+*Under development.*
+
+*Currently, I am working on training an object detection model in TensorFlow to detect hands. I will be training the model on [EgoHands Dataset](http://vision.soic.indiana.edu/projects/egohands/) [[7](#references)].*
 
 ## Eye Winking
 
@@ -68,7 +70,10 @@ You will see that Eye-Aspect-Ratio [[1](#references)] is the simplest and the mo
 You can see that the EAR value drops whenever the eye closes. We can train a simple classifier to detect the drop. However, a normal if condition works just fine. 
 
 ## Flashlight Toggling
-*Under development*
+*Under development.*
+
+*I will do this in the end as this will not require any deep learning and only demans an efficient use of some image processing tools already available on OpenCV.*
+
 ## Mouse Clicks Tracking
 
 This module could be the least useful of all. But my motivation was to create an interface where one need not type anything explicitly but still would want to convey the message with just the mouse clicks. One way to look at this is to send the message across discreetly with just the mouse clicks. 
@@ -96,6 +101,4 @@ Maybe this would be helpful when you are trying to get rid of an annoying co-wor
 
 - **[6]**. PyQt5 Tutorials. *zetcode.com*. [http://zetcode.com/gui/pyqt5/](http://zetcode.com/gui/pyqt5/).
 
-- **[7]**. Akshay Bahadur. *Emojinator*. [https://github.com/akshaybahadur21/Emojinator](https://github.com/akshaybahadur21/Emojinator).
-
--  
+-  **[7]**. Bambach, Sven and Lee, Stefan and Crandall, David J. and Yu, Chen. *[Lending A Hand: Detecting Hands and Recognizing Activities in Complex Egocentric Interactions](http://vision.soic.indiana.edu/projects/egohands/)*. The IEEE International Conference on Computer Vision (ICCV), December 2015.
