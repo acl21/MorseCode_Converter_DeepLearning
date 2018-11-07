@@ -1,4 +1,4 @@
-# Morse Code Convertor [![License: Apache 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/akshaychandra21/MorseCode_Converter_DeepLearning/blob/master/LICENSE)
+# Robust Morse Code Converter (Incomplete)[![License: Apache 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/akshaychandra21/MorseCode_Converter_DeepLearning/blob/master/LICENSE)
 
 This 4-in-1 application can convert Morse Code signalled in 4 different ways in real time. Namely, flashlight toggles, eye winking, hand gestures and mouse clicks. 
 
@@ -72,7 +72,7 @@ You can see that the EAR value drops whenever the eye closes. We can train a sim
 ## Flashlight Toggling
 *Under development.*
 
-*I will do this in the end as this will not require any deep learning and only demans an efficient use of some image processing tools already available on OpenCV.*
+*I will do this in the end as this will not require any deep learning and only demands an efficient use of some image processing tools already available on OpenCV.*
 
 ## Mouse Clicks Tracking
 
